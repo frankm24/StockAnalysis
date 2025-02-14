@@ -1,0 +1,46 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+hr {
+  border-top: 5px solid;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.centered {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #34495e;
+}
+
+p {
+    margin: 5px 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.page-break {
+    page-break-after: always;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Analysis Report</title>
+</head>
+<body>
+    <h1>{{ ticker_symbol }} | {{ longName }} </h1>
+    <p class="centered">{{ full_address }}</p>
+    <hr>
+    <p><strong>Mkt Cap:</strong> {{ mkt_cap_formatted }}</p>
+    <h2>About</h2>
+    <p>{{ longBusinessSummary }}</p>
+    <h2>Stock Price Trend</h2>
+    <p><strong>CAGR:</strong> {{ cagr }}</p>
+    <p><strong>R^2:</strong> {{ r2 }}</p>
+    <img src="{{ chart_path }}" alt="Stock Trend Chart">
+    
+    <footer>
+        <p>Frank Murphy | Generated on {{ todays_date }}</p>
+    </footer>
+    <div class="page-break"></div>
+</body>
+</html>
