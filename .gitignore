@@ -5,6 +5,7 @@ cache.pkl
 src/api_key.py
 
 # Byte-compiled / optimized / DLL files
+src/__pycache__/
 __pycache__/
 *.py[cod]
 *$py.class
